@@ -1,0 +1,15 @@
+public class A{
+    private void display(){
+        System.out.print("hhhh");
+    }
+    void show(){
+        System.out.print("yesss");
+        display();
+    }
+}
+class B{
+    public static void main(String [] args){
+        A obj=new A();
+        obj.show();
+    }
+}
